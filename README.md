@@ -1,15 +1,18 @@
-# FS_Beyond2D evaluation framework
+<h1 align="center">FS_Beyond2D Evaluation Framework</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Under_Development-yellow" alt="Under Development">
+  <img src="https://img.shields.io/github/v/tag/5G-MAG/rt-beyond2d-evaluation-framework?label=version" alt="Version">
+  <img src="https://img.shields.io/badge/License-5G--MAG%20Public%20License%20(v1.0)-blue" alt="License">
+</p>
 
-## Introduction
+# Introduction
 
 This project provides the evaluation framework for the *Feasibility Study on Beyond 2D Video*
 (FS_Beyond2D) in [3GPP](https://www.3gpp.org) TSG SA
 [WG4](https://www.3gpp.org/3gpp-groups/service-system-aspects-sa/sa-wg4) (SA4).
 This study is based on work item description (WID)
 [SP-240479](https://www.3gpp.org/ftp/tsg_sa/TSG_SA/TSGS_103_Maastricht_2024-03/Docs/SP-240479.zip)
-*New SID on Feasibility Study on Beyond 2D Video*, and the study will result in technical report
-[TR 26.956](https://portal.3gpp.org/#/55936-specifications).
-<!-- NOTE(BK): Avoiding a reference to the TR that get out of date quickly -->
+*New SID on Feasibility Study on Beyond 2D Video*, and the study will result in technical report [TR 26.956](https://www.3gpp.org/dynareport/26956.htm).
 
 ## Contents of this project
 
@@ -32,4 +35,4 @@ different servers, as written in the TR.
 
 ## License
 
-This project is covered by the [5G-MAG public license](LICENSE.md).
+This project is covered by the [5G-MAG Public License v1.0](LICENSE.md).
