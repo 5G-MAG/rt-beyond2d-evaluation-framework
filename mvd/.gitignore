@@ -1,0 +1,13 @@
+/.deps/
+/bin/
+/include/
+/lib/
+/out/
+/tmiv/
+/venv*/
+
+/.ninja_log
+/build.ninja
+/qmiv
+/rec.yuv
+/slurm_script.sh
