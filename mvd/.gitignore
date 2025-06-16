@@ -6,6 +6,8 @@
 /tmiv/
 /venv*/
 
+__pycache__/
+
 /.ninja_log
 /build.ninja
 /qmiv

@@ -21,7 +21,7 @@ from typing import Callable
 import sys
 
 LINE_WIDTH = 100
-DEFAULT_CONDITIONS = ["A", "FV", "SCV"]
+DEFAULT_CONDITIONS = ["FV", "A", "SCV"]
 DEFAULT_FRAME_COUNTS = [3, 65]
 DEFAULT_CONTENT_IDS = ["Bartender", "Breakfast", "DanceMoves"]
 DEFAULT_RATE_IDS = ["RP1", "RP2", "RP3", "RP4"]
@@ -50,17 +50,16 @@ class MvdExperiment:
         self.__write_ninja_build_file()
 
     def __write_slurm_script(self):
-        self.slurm_script_file = Path("slurm_script.sh")
+        file = Path("slurm_script.sh")
 
-        if not self.slurm_script_file.is_file():
-            with open(self.slurm_script_file, mode="w", encoding="utf8") as stream:
+        if not file.is_file():
+            with open(file, mode="w", encoding="utf8") as stream:
                 stream.write("#!/bin/sh\n")
                 stream.write("# Additional sbatch parameters can be added here.")
                 stream.write(" See https://slurm.schedmd.com/sbatch.html\n\n")
-                stream.write("set -e\n")
-                stream.write('/bin/time -v "@"\n')
+                stream.write('/bin/time -v "$@"\n')
 
-            self.slurm_script_file.chmod(0o755)
+            file.chmod(0o755)
 
     def __write_ninja_build_file(self):
         with open("build.ninja", mode="w") as stream:
@@ -87,10 +86,10 @@ class MvdExperiment:
         self.__writer.newline()
 
     def __write_encode_rp0_rule(self):
-        job_name = "E_${condition_id}_${frame_count}_${content_id}"
+        job_name = "E_${condition_id}_${frame_count}_${content_id}_RP0"
         self.__writer.rule(
             name="encode_RP0",
-            command=f"{self.__launch(job_name)}$python tmiv/bin/encode.py"
+            command=f"{self.__run_job(job_name)}$python tmiv/bin/encode.py"
             " --input-dir $content_dir"
             " --output-dir out"
             " --content-id $content_id"
@@ -110,7 +109,7 @@ class MvdExperiment:
         job_name = "E_${condition_id}_${frame_count}_${content_id}_${rate_id}"
         self.__writer.rule(
             name="encode_RPx",
-            command=f"{self.__launch(job_name)}$python tmiv/bin/encode.py"
+            command=f"{self.__run_job(job_name)}$python tmiv/bin/encode.py"
             " --input-dir $content_dir"
             " --output-dir out"
             " --content-id $content_id"
@@ -131,12 +130,10 @@ class MvdExperiment:
         self.__writer.newline()
 
     def __write_reconstruct_rule(self):
-        job_name = (
-            "R_${condition_id}_${frame_count}_${content_id}_${rate_id}_${view_id}"
-        )
+        job_name = "R_${condition_id}_${frame_count}_${content_id}_${rate_id}_${view_id}"
         self.__writer.rule(
             name="reconstruct",
-            command=f"{self.__launch(job_name)}tmiv/bin/TmivDecoder"
+            command=f"{self.__run_job(job_name)}tmiv/bin/TmivDecoder"
             " -s $content_id"
             " -n $frame_count"
             " -N $frame_count"
@@ -152,12 +149,10 @@ class MvdExperiment:
         self.__writer.newline()
 
     def __write_interpolation_rule(self):
-        job_name = (
-            "I_${condition_id}_${frame_count}_${content_id}_${rate_id}_${pose_trace_id}"
-        )
+        job_name = "I_${condition_id}_${frame_count}_${content_id}_${rate_id}_${pose_trace_id}"
         self.__writer.rule(
             name="interpolate",
-            command=f"{self.__launch(job_name)}tmiv/bin/TmivDecoder"
+            command=f"{self.__run_job(job_name)}tmiv/bin/TmivDecoder"
             " -s $content_id"
             " -n $frame_count"
             " -N $output_frame_count"
@@ -173,14 +168,12 @@ class MvdExperiment:
         self.__writer.newline()
 
     def __write_measure_rule(self):
-        job_name = (
-            "M_${condition_id}_${frame_count}_${content_id}_${rate_id}_${view_id}"
-        )
+        job_name = "M_${condition_id}_${frame_count}_${content_id}_${rate_id}_${view_id}"
         self.__writer.rule(
             name="measure",
-            command="rm out/$condition_id$frame_count/$content_id/$rate_id"
+            command="rm -f out/$condition_id$frame_count/$content_id/$rate_id"
             "/$condition_id${frame_count}_${content_id}_${rate_id}_${view_id}.qmiv"
-            f" && {self.__launch(job_name)}./qmiv"
+            f" && {self.__run_job(job_name)}./qmiv"
             " -i0 $content_dir/$content_id/${view_id}_texture_1920x1080_yuv420p10le.yuv"
             " -i1 out/$condition_id$frame_count/$content_id/$rate_id/$condition_id${frame_count}"
             "_${content_id}_${rate_id}_${view_id}_tex_1920x1080_yuv420p10le.yuv"
@@ -193,13 +186,13 @@ class MvdExperiment:
         )
         self.__writer.newline()
 
-    def __launch(self, job_name: str) -> str:
+    def __run_job(self, job_name: str) -> str:
         if self.args.slurm:
-            Path("out/slurm").mkdir(parents=True, exist_ok=True)
+            log_file = f"out/$condition_id$frame_count/$content_id/$rate_id/%A-{job_name}.log"
             return (
-                f"sbatch --job-name={job_name}"
-                f" --error=out/slurm/{job_name}-%A.log --output=out/slurm/{job_name}-%A.log"
-                f" --cpus-per-task=$thread_count {self.slurm_script_file} -- "
+                f"./run_slurm_job.sh --job-name={job_name}"
+                f" --error={log_file} --output={log_file}"
+                f" --cpus-per-task=$thread_count ./slurm_script.sh "
             )
 
         return ""
@@ -247,6 +240,7 @@ class MvdExperiment:
                 "condition_id": self.__condition_id,
                 "frame_count": self.__frame_count,
                 "content_id": self.__content_id,
+                "rate_id": "RP0",
             },
         )
         self.__writer.newline()
@@ -348,15 +342,7 @@ class MvdExperiment:
         return f"out/{self.__condition_id}{self.__frame_count}/{self.__content_id}/{self.__rate_id}"
 
 
-def parse_arguments() -> Namespace:
-    parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
-
-    parser.add_argument(
-        "--content-dir",
-        type=Path,
-        required=True,
-        help="base directory of the content with a sub-directory for each content item",
-    )
+def add_test_point_arguments(parser: ArgumentParser):
     parser.add_argument(
         "--condition-ids",
         type=str,
@@ -385,6 +371,20 @@ def parse_arguments() -> Namespace:
         default=DEFAULT_RATE_IDS,
         help="list of rate points to evaluate",
     )
+
+
+def parse_arguments() -> Namespace:
+    parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
+
+    parser.add_argument(
+        "--content-dir",
+        type=Path,
+        required=True,
+        help="base directory of the content with a sub-directory for each content item",
+    )
+
+    add_test_point_arguments(parser)
+
     parser.add_argument(
         "--slurm",
         action="store_true",
