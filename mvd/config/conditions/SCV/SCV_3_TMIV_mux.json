@@ -1,0 +1,8 @@
+{
+    "inputBitstreamPathFmt": "SCV{0}/{1}/RP0/TMIV_SCV{0}_{1}_RP0.bit",
+    "inputDirectory": ".",
+    "inputGeometryVideoSubBitstreamPathFmt": "SCV{0}/{1}/{2}/TMIV_SCV{0}_{1}_{2}_geo_c{3:02}.bit",
+    "inputTextureVideoSubBitstreamPathFmt": "SCV{0}/{1}/{2}/TMIV_SCV{0}_{1}_{2}_tex_c{3:02}.bit",
+    "outputBitstreamPathFmt": "SCV{0}/{1}/{2}/TMIV_SCV{0}_{1}_{2}.bit",
+    "outputDirectory": "."
+}
