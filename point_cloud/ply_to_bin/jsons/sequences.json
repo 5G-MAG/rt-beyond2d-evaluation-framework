@@ -1,0 +1,40 @@
+{
+	"SequenceList": [
+		
+		{
+			"SeqId": 1,
+			"Name": "mitch11",
+			"Fps" : "25",
+			"Config": "mitch_vox11.cfg",
+			"PlyPath": "<src_ply_dir>/volucap_idcc/mitch_PLY/F475_quantized_vox11_r0.7"
+		},
+		{
+			"SeqId": 2,
+			"Name": "JuggleSoc11",
+			"Fps" : "25",
+			"Config": "jugglefootrouge_vox11.cfg",
+			"PlyPath": "<src_ply_dir>/xdprod/20240902-JuggleSoccerRouge/F125_quantized_vox11_r1"
+		},
+		{
+			"SeqId": 3,
+			"Name": "henry11",
+			"Fps" : "30",
+			"Config": "henry_vox11.cfg",
+			"PlyPath": "<src_ply_dir>/renderpeople_idcc/henry/F733_quantized_vox11_r0.75"
+		},
+		{
+			"SeqId": 4,
+			"Name": "nathalie11",
+			"Fps" : "30",
+			"Config": "nathalie_vox11.cfg",
+			"PlyPath": "<src_ply_dir>/renderpeople_idcc/nathalie/F925_quantized_vox11_r1"
+		},
+		{
+			"SeqId": 5,
+			"Name": "aliyah",
+			"Fps" : "30",
+			"Config": "aliyah_vox11.cfg",
+			"PlyPath": "<src_ply_dir>/renderpeople_idcc/aliyah/F1112_quantized_vox11_r0.88"
+		}
+	]
+}

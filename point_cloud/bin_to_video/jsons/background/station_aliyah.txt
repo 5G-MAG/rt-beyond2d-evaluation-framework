@@ -1,0 +1,5 @@
+# CrouchEndHillStation
+scenePath  : <background_dir>/sketchfab/crouch-end-station/source/CrouchEndHillStation/CrouchEndHillStation03.obj # Scene obj path 
+sceneScale : 955 # Scene scale 
+scenePos   :                -7745                -2565                 -600  # Scene position 
+sceneRot   :                  -90                    0                  220  # Scene position 
