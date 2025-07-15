@@ -1,0 +1,171 @@
+{
+	"TestList": [
+		{
+			"TestName": "Basic",
+			"Profile": "Basic",
+			"EncoderParams": [
+				"--profileToolsetIdc=0",
+				"--profileReconstructionIdc=0",
+				"--mapCountMinus1=0"
+			],
+			"SeqList": [
+				{
+					"SeqId": 1,
+					"Condition": "RA",
+					"FrameNbList": [
+						"250"
+					],
+					"RateList": [
+						{
+							"RateId": 1,
+							"geometryQP": "29",
+							"attributeQP": "33",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 2,
+							"geometryQP": "23",
+							"attributeQP": "29",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 3,
+							"geometryQP": "19",
+							"attributeQP": "25",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 4,
+							"geometryQP": "15",
+							"attributeQP": "23",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 5,
+							"geometryQP": "11",
+							"attributeQP": "21",
+							"occupancyPrecision": "2"
+						}
+					]
+				},
+				{
+					"SeqId": 2,
+					"Condition": "RA",
+					"FrameNbList": [
+						"125"
+					],
+					"RateList": [
+						{
+							"RateId": 1,
+							"geometryQP": "30",
+							"attributeQP": "39",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 2,
+							"geometryQP": "19",
+							"attributeQP": "35",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 3,
+							"geometryQP": "11",
+							"attributeQP": "28",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 4,
+							"geometryQP": "9",
+							"attributeQP": "24",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 5,
+							"geometryQP": "5",
+							"attributeQP": "21",
+							"occupancyPrecision": "2"
+						}
+					]
+				},
+				{
+					"SeqId": 3,
+					"Condition": "RA",
+					"FrameNbList": [
+						"300"
+					],
+					"RateList": [
+						{
+							"RateId": 1,
+							"geometryQP": "23",
+							"attributeQP": "34",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 2,
+							"geometryQP": "15",
+							"attributeQP": "30",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 3,
+							"geometryQP": "8",
+							"attributeQP": "26",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 4,
+							"geometryQP": "7",
+							"attributeQP": "23",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 5,
+							"geometryQP": "6",
+							"attributeQP": "20",
+							"occupancyPrecision": "2"
+						}
+					]
+				},
+                {
+					"SeqId": 4,
+					"Condition": "RA",
+					"FrameNbList": [
+						"300"
+					],
+					"RateList": [
+						{
+							"RateId": 1,
+							"geometryQP": "25",
+							"attributeQP": "39",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 2,
+							"geometryQP": "24",
+							"attributeQP": "30",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 3,
+							"geometryQP": "20",
+							"attributeQP": "26",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 4,
+							"geometryQP": "18",
+							"attributeQP": "24",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 5,
+							"geometryQP": "17",
+							"attributeQP": "21",
+							"occupancyPrecision": "2"
+						}
+					]
+				}
+			]
+		}
+	]
+}

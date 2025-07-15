@@ -1,0 +1,139 @@
+{
+    "TestList": [
+        {
+            "Name": "Basic_S1C2RAR0001_mitch11",
+            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0001_mitch11_enc.bin",
+            "PathDec": "Mitch/Basic_S1C2RAR0001_mitch11",
+            "PathVid": "Videos/Mitch",
+            "CameraPath": "camerapath/Mitch.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S1C2RAR0002_mitch11",
+            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0002_mitch11_enc.bin",
+            "PathDec": "Mitch/Basic_S1C2RAR0002_mitch11",
+            "PathVid": "Videos/Mitch",
+            "CameraPath": "camerapath/Mitch.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S1C2RAR0003_mitch11",
+            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0003_mitch11_enc.bin",
+            "PathDec": "Mitch/Basic_S1C2RAR0003_mitch11",
+            "PathVid": "Videos/Mitch",
+            "CameraPath": "camerapath/Mitch.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S1C2RAR0004_mitch11",
+            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0004_mitch11_enc.bin",
+            "PathDec": "Mitch/Basic_S1C2RAR0004_mitch11",
+            "PathVid": "Videos/Mitch",
+            "CameraPath": "camerapath/Mitch.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S1C2RAR0005_mitch11",
+            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0005_mitch11_enc.bin",
+            "PathDec": "Mitch/Basic_S1C2RAR0005_mitch11",
+            "PathVid": "Videos/Mitch",
+            "CameraPath": "camerapath/Mitch.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S2C2RAR0001_JuggleSoc11",
+            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0001_JuggleSoc11_enc.bin",
+            "PathDec": "JuggleSoccer/Basic_S2C2RAR0001_JuggleSoc11",
+            "PathVid": "Videos/Soccer",
+            "CameraPath": "camerapath/Soccer.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S2C2RAR0002_JuggleSoc11",
+            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0002_JuggleSoc11_enc.bin",
+            "PathDec": "JuggleSoccer/Basic_S2C2RAR0002_JuggleSoc11",
+            "PathVid": "Videos/Soccer",
+            "CameraPath": "camerapath/Soccer.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S2C2RAR0003_JuggleSoc11",
+            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0003_JuggleSoc11_enc.bin",
+            "PathDec": "JuggleSoccer/Basic_S2C2RAR0003_JuggleSoc11",
+            "PathVid": "Videos/Soccer",
+            "CameraPath": "camerapath/Soccer.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S2C2RAR0004_JuggleSoc11",
+            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0004_JuggleSoc11_enc.bin",
+            "PathDec": "JuggleSoccer/Basic_S2C2RAR0004_JuggleSoc11",
+            "PathVid": "Videos/Soccer",
+            "CameraPath": "camerapath/Soccer.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S2C2RAR0005_JuggleSoc11",
+            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0005_JuggleSoc11_enc.bin",
+            "PathDec": "JuggleSoccer/Basic_S2C2RAR0005_JuggleSoc11",
+            "PathVid": "Videos/Soccer",
+            "CameraPath": "camerapath/Soccer.txt",
+            "Config": "background/skatepark.txt",
+            "FPS": 25
+        },
+        {
+            "Name": "Basic_S3C2RAR0001_henry11",
+            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0001_henry11_enc.bin",
+            "PathDec": "Henry/Basic_S3C2RAR0001_henry11",
+            "PathVid": "Videos/Henry",
+            "CameraPath": "camerapath/Henry.txt",
+            "Config": "background/station_henry.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S3C2RAR0002_henry11",
+            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0002_henry11_enc.bin",
+            "PathDec": "Henry/Basic_S3C2RAR0002_henry11",
+            "PathVid": "Videos/Henry",
+            "CameraPath": "camerapath/Henry.txt",
+            "Config": "background/station_henry.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S3C2RAR0003_henry11",
+            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0003_henry11_enc.bin",
+            "PathDec": "Henry/Basic_S3C2RAR0003_henry11",
+            "PathVid": "Videos/Henry",
+            "CameraPath": "camerapath/Henry.txt",
+            "Config": "background/station_henry.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S3C2RAR0004_henry11",
+            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0004_henry11_enc.bin",
+            "PathDec": "Henry/Basic_S3C2RAR0004_henry11",
+            "PathVid": "Videos/Henry",
+            "CameraPath": "camerapath/Henry.txt",
+            "Config": "background/station_henry.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S3C2RAR0005_henry11",
+            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0005_henry11_enc.bin",
+            "PathDec": "Henry/Basic_S3C2RAR0005_henry11",
+            "PathVid": "Videos/Henry",
+            "CameraPath": "camerapath/Henry.txt",
+            "Config": "background/station_henry.txt",
+            "FPS": 30
+        }
+    ]
+}
