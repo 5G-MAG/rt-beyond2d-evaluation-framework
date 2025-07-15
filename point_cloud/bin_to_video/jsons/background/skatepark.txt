@@ -1,0 +1,5 @@
+# source
+scenePath  : <background_dir>/sketchfab/southbank-undercroft-skatepark/source/SouthbankSkatePark02.obj # Scene obj path 
+sceneScale : 1860                   # Scene scale 
+scenePos   : 12960   -1115   -895   # Scene position 
+sceneRot   : -90      0      -15    # Scene position 

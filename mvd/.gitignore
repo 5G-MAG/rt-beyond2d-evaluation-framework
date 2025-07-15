@@ -1,0 +1,15 @@
+/.deps/
+/bin/
+/include/
+/lib/
+/out/
+/tmiv/
+/venv*/
+
+__pycache__/
+
+/.ninja_log
+/build.ninja
+/qmiv
+/rec.yuv
+/slurm_script.sh

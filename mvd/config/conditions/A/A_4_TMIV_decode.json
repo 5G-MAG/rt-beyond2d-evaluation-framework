@@ -1,0 +1,41 @@
+{
+    "CullerMethod": "NoCuller",
+    "GeometryScaler": {
+        "geometryEdgeMagnitudeTh": 10,
+        "maxCurvature": 5,
+        "minForegroundConfidence": 0.5
+    },
+    "NoCuller": {},
+    "Renderer": {
+        "Inpainter": {},
+        "InpainterMethod": "Inpainter",
+        "SynthesizerMethod": "ViewWeightingSynthesizer",
+        "ViewWeightingSynthesizer": {
+            "angularScaling": 1.5,
+            "blendingFactor": 0.03,
+            "edgeBlurringBlockSize": 5,
+            "edgeBlurringDepthThreshold": 0.04,
+            "filterReprojectedPrunedDepthMaps": {
+                "dilateCount": 5,
+                "erodeCount": 5
+            },
+            "filteringPass": 1,
+            "minimalWeight": 2.5,
+            "overloadFactor": 2.0,
+            "stretchFactor": 100.0
+        },
+        "ViewingSpaceController": {},
+        "ViewingSpaceControllerMethod": "ViewingSpaceController"
+    },
+    "RendererMethod": "Renderer",
+    "configDirectory": "config",
+    "inputBitstreamPathFmt": "A{0}/{1}/{2}/TMIV_A{0}_{1}_{2}.bit",
+    "inputDirectory": ".",
+    "inputGeometryVideoFramePathFmt": "A{0}/{1}/{2}/TMIV_A{0}_{1}_{2}_geo_c{3:02}_{4}x{5}_{6}.yuv",
+    "inputPoseTracePathFmt": "pose_traces/{1}{3}.csv",
+    "inputTextureVideoFramePathFmt": "A{0}/{1}/{2}/TMIV_A{0}_{1}_{2}_tex_c{3:02}_{4}x{5}_{6}.yuv",
+    "inputViewportParamsPathFmt": "sequences/{1}.json",
+    "outputDirectory": ".",
+    "outputViewportTexturePathFmt": "A{0}/{1}/{2}/A{0}_{1}_{2}_{4}_tex_{5}x{6}_{7}.yuv",
+    "patchMargin": 4
+}
