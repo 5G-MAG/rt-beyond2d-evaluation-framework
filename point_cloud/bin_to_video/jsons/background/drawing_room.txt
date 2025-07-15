@@ -1,5 +1,0 @@
-# {52BB0DA6-74BF-4047-BAE1-8DB06509090F}
-scenePath  : <background_dir>/sketchfab/the-great-drawing-room/source/{52BB0DA6-74BF-4047-BAE1-8DB06509090F}/model.obj # Scene obj path 
-sceneScale : 445 # Scene scale 
-scenePos   :                 2395                 -485                  705  # Scene position 
-sceneRot   :                    0                  300                    0  # Scene position 

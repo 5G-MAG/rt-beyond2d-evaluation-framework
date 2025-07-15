@@ -1,5 +1,0 @@
-#Index   PosX   PosY    PosZ    ViewX   ViewY   ViewZ   UpX     UpY     UpZ     Orthographic    FixedPosition
-    0   -5385    839    665     881     839     665     0       1       0       0               0
-   90   -5385    839    665     881     839     665     0       1       0       0               0
-  180   -1250   1500    665     881     1500    665     0       1       0       0               0
-  299   -1250   1500    665     881     1500    665     0       1       0       0               0
