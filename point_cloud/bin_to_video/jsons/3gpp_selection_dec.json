@@ -2,7 +2,7 @@
     "TestList": [
         {
             "Name": "Basic_S1C2RAR0001_mitch11",
-            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0001_mitch11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F250_Basic/S1C2RA_mitch11/S1C2RAR0001_mitch11_enc.bin",
             "PathDec": "Mitch/Basic_S1C2RAR0001_mitch11",
             "PathVid": "Videos/Mitch",
             "CameraPath": "camerapath/Mitch.txt",
@@ -11,7 +11,7 @@
         },
         {
             "Name": "Basic_S1C2RAR0002_mitch11",
-            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0002_mitch11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F250_Basic/S1C2RA_mitch11/S1C2RAR0002_mitch11_enc.bin",
             "PathDec": "Mitch/Basic_S1C2RAR0002_mitch11",
             "PathVid": "Videos/Mitch",
             "CameraPath": "camerapath/Mitch.txt",
@@ -20,7 +20,7 @@
         },
         {
             "Name": "Basic_S1C2RAR0003_mitch11",
-            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0003_mitch11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F250_Basic/S1C2RA_mitch11/S1C2RAR0003_mitch11_enc.bin",
             "PathDec": "Mitch/Basic_S1C2RAR0003_mitch11",
             "PathVid": "Videos/Mitch",
             "CameraPath": "camerapath/Mitch.txt",
@@ -29,7 +29,7 @@
         },
         {
             "Name": "Basic_S1C2RAR0004_mitch11",
-            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0004_mitch11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F250_Basic/S1C2RA_mitch11/S1C2RAR0004_mitch11_enc.bin",
             "PathDec": "Mitch/Basic_S1C2RAR0004_mitch11",
             "PathVid": "Videos/Mitch",
             "CameraPath": "camerapath/Mitch.txt",
@@ -38,7 +38,7 @@
         },
         {
             "Name": "Basic_S1C2RAR0005_mitch11",
-            "PathEnc": "3gpp_basic_S1S2S3/F250_Basic/S1C2RA_mitch11/S1C2RAR0005_mitch11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F250_Basic/S1C2RA_mitch11/S1C2RAR0005_mitch11_enc.bin",
             "PathDec": "Mitch/Basic_S1C2RAR0005_mitch11",
             "PathVid": "Videos/Mitch",
             "CameraPath": "camerapath/Mitch.txt",
@@ -47,7 +47,7 @@
         },
         {
             "Name": "Basic_S2C2RAR0001_JuggleSoc11",
-            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0001_JuggleSoc11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0001_JuggleSoc11_enc.bin",
             "PathDec": "JuggleSoccer/Basic_S2C2RAR0001_JuggleSoc11",
             "PathVid": "Videos/Soccer",
             "CameraPath": "camerapath/Soccer.txt",
@@ -56,7 +56,7 @@
         },
         {
             "Name": "Basic_S2C2RAR0002_JuggleSoc11",
-            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0002_JuggleSoc11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0002_JuggleSoc11_enc.bin",
             "PathDec": "JuggleSoccer/Basic_S2C2RAR0002_JuggleSoc11",
             "PathVid": "Videos/Soccer",
             "CameraPath": "camerapath/Soccer.txt",
@@ -65,7 +65,7 @@
         },
         {
             "Name": "Basic_S2C2RAR0003_JuggleSoc11",
-            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0003_JuggleSoc11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0003_JuggleSoc11_enc.bin",
             "PathDec": "JuggleSoccer/Basic_S2C2RAR0003_JuggleSoc11",
             "PathVid": "Videos/Soccer",
             "CameraPath": "camerapath/Soccer.txt",
@@ -74,7 +74,7 @@
         },
         {
             "Name": "Basic_S2C2RAR0004_JuggleSoc11",
-            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0004_JuggleSoc11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0004_JuggleSoc11_enc.bin",
             "PathDec": "JuggleSoccer/Basic_S2C2RAR0004_JuggleSoc11",
             "PathVid": "Videos/Soccer",
             "CameraPath": "camerapath/Soccer.txt",
@@ -83,7 +83,7 @@
         },
         {
             "Name": "Basic_S2C2RAR0005_JuggleSoc11",
-            "PathEnc": "3gpp_basic_S1S2S3/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0005_JuggleSoc11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F125_Basic/S2C2RA_JuggleSoc11/S2C2RAR0005_JuggleSoc11_enc.bin",
             "PathDec": "JuggleSoccer/Basic_S2C2RAR0005_JuggleSoc11",
             "PathVid": "Videos/Soccer",
             "CameraPath": "camerapath/Soccer.txt",
@@ -92,7 +92,7 @@
         },
         {
             "Name": "Basic_S3C2RAR0001_henry11",
-            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0001_henry11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S3C2RA_henry11/S3C2RAR0001_henry11_enc.bin",
             "PathDec": "Henry/Basic_S3C2RAR0001_henry11",
             "PathVid": "Videos/Henry",
             "CameraPath": "camerapath/Henry.txt",
@@ -101,7 +101,7 @@
         },
         {
             "Name": "Basic_S3C2RAR0002_henry11",
-            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0002_henry11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S3C2RA_henry11/S3C2RAR0002_henry11_enc.bin",
             "PathDec": "Henry/Basic_S3C2RAR0002_henry11",
             "PathVid": "Videos/Henry",
             "CameraPath": "camerapath/Henry.txt",
@@ -110,7 +110,7 @@
         },
         {
             "Name": "Basic_S3C2RAR0003_henry11",
-            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0003_henry11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S3C2RA_henry11/S3C2RAR0003_henry11_enc.bin",
             "PathDec": "Henry/Basic_S3C2RAR0003_henry11",
             "PathVid": "Videos/Henry",
             "CameraPath": "camerapath/Henry.txt",
@@ -119,7 +119,7 @@
         },
         {
             "Name": "Basic_S3C2RAR0004_henry11",
-            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0004_henry11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S3C2RA_henry11/S3C2RAR0004_henry11_enc.bin",
             "PathDec": "Henry/Basic_S3C2RAR0004_henry11",
             "PathVid": "Videos/Henry",
             "CameraPath": "camerapath/Henry.txt",
@@ -128,11 +128,101 @@
         },
         {
             "Name": "Basic_S3C2RAR0005_henry11",
-            "PathEnc": "3gpp_basic_S1S2S3/F300_Basic/S3C2RA_henry11/S3C2RAR0005_henry11_enc.bin",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S3C2RA_henry11/S3C2RAR0005_henry11_enc.bin",
             "PathDec": "Henry/Basic_S3C2RAR0005_henry11",
             "PathVid": "Videos/Henry",
             "CameraPath": "camerapath/Henry.txt",
             "Config": "background/station_henry.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S4C2RAR0001_nathalie11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S4C2RA_nathalie11/S4C2RAR0001_nathalie11_enc.bin",
+            "PathDec": "Nathalie/Basic_S4C2RAR0001_nathalie11",
+            "PathVid": "Videos/Nathalie",
+            "CameraPath": "camerapath/Nathalie.txt",
+            "Config": "background/drawing_room_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S4C2RAR0002_nathalie11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S4C2RA_nathalie11/S4C2RAR0002_nathalie11_enc.bin",
+            "PathDec": "Nathalie/Basic_S4C2RAR0002_nathalie11",
+            "PathVid": "Videos/Nathalie",
+            "CameraPath": "camerapath/Nathalie.txt",
+            "Config": "background/drawing_room_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S4C2RAR0003_nathalie11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S4C2RA_nathalie11/S4C2RAR0003_nathalie11_enc.bin",
+            "PathDec": "Nathalie/Basic_S4C2RAR0003_nathalie11",
+            "PathVid": "Videos/Nathalie",
+            "CameraPath": "camerapath/Nathalie.txt",
+            "Config": "background/drawing_room_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S4C2RAR0004_nathalie11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S4C2RA_nathalie11/S4C2RAR0004_nathalie11_enc.bin",
+            "PathDec": "Nathalie/Basic_S4C2RAR0004_nathalie11",
+            "PathVid": "Videos/Nathalie",
+            "CameraPath": "camerapath/Nathalie.txt",
+            "Config": "background/drawing_room_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S4C2RAR0005_nathalie11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S4C2RA_nathalie11/S4C2RAR0005_nathalie11_enc.bin",
+            "PathDec": "Nathalie/Basic_S4C2RAR0005_nathalie11",
+            "PathVid": "Videos/Nathalie",
+            "CameraPath": "camerapath/Nathalie.txt",
+            "Config": "background/drawing_room_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S5C2RAR0001_aliyah11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S5C2RA_aliyah11/S5C2RAR0001_aliyah11_enc.bin",
+            "PathDec": "Aliyah/Basic_S5C2RAR0001_aliyah11",
+            "PathVid": "Videos/Aliyah",
+            "CameraPath": "camerapath/Aliyah.txt",
+            "Config": "background/station_aliyah_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S5C2RAR0002_aliyah11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S5C2RA_aliyah11/S5C2RAR0002_aliyah11_enc.bin",
+            "PathDec": "Aliyah/Basic_S5C2RAR0002_aliyah11",
+            "PathVid": "Videos/Aliyah",
+            "CameraPath": "camerapath/Aliyah.txt",
+            "Config": "background/station_aliyah_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S5C2RAR0003_aliyah11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S5C2RA_aliyah11/S5C2RAR0003_aliyah11_enc.bin",
+            "PathDec": "Aliyah/Basic_S5C2RAR0003_aliyah11",
+            "PathVid": "Videos/Aliyah",
+            "CameraPath": "camerapath/Aliyah.txt",
+            "Config": "background/station_aliyah_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S5C2RAR0004_aliyah11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S5C2RA_aliyah11/S5C2RAR0004_aliyah11_enc.bin",
+            "PathDec": "Aliyah/Basic_S5C2RAR0004_aliyah11",
+            "PathVid": "Videos/Aliyah",
+            "CameraPath": "camerapath/Aliyah.txt",
+            "Config": "background/station_aliyah_linux.txt",
+            "FPS": 30
+        },
+        {
+            "Name": "Basic_S5C2RAR0005_aliyah11",
+            "PathEnc": "3gpp_test_configuration/F300_Basic/S5C2RA_aliyah11/S5C2RAR0005_aliyah11_enc.bin",
+            "PathDec": "Aliyah/Basic_S5C2RAR0005_aliyah11",
+            "PathVid": "Videos/Aliyah",
+            "CameraPath": "camerapath/Aliyah.txt",
+            "Config": "background/station_aliyah_linux.txt",
             "FPS": 30
         }
     ]

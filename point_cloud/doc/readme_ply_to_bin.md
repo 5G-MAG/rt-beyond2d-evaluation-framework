@@ -119,16 +119,15 @@ Table 4 V-PCC profile options
 
 For each sequence and profile, encoder parameters have been established and summarized in Table 5 below.
 
-|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Rate | Target Bitrate (mbps) | S01 Mitch |     |     | S02 Juggle Soccer |     |     | S03 Henry |     |     | S04 Nathalie |     |     | S05 Aliyah |     |     |
-|     |
-|     |     | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec |     |
-| R01 | 5   | 29  | 33  | 4   | 30  | 39  | 4   | 23  | 34  | 4   | 25  | 39  | 4   |     |     |     |     |
-| R02 | 10  | 23  | 29  | 2   | 19  | 35  | 2   | 15  | 30  | 2   | 24  | 30  | 4   |     |     |     |     |
-| R03 | 20  | 19  | 25  | 2   | 11  | 28  | 2   | 8   | 26  | 2   | 20  | 26  | 4   |     |     |     |     |
-| R04 | 30  | 15  | 23  | 2   | 9   | 24  | 2   | 7   | 23  | 2   | 18  | 24  | 2   |     |     |     |     |
-| R05 | 50  | 11  | 21  | 2   | 5   | 21  | 2   | 6   | 20  | 2   | 17  | 21  | 2   |     |     |     |     |
+|     |     | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec | QP  <br>Geo | QP  <br>Att | Occ  <br>Prec |
+| R01 | 5   | 29  | 33  | 4   | 30  | 39  | 4   | 23  | 34  | 4   | 25  | 39  | 4   | 28  | 39  | 4   |
+| R02 | 10  | 23  | 29  | 2   | 19  | 35  | 2   | 15  | 30  | 2   | 24  | 30  | 4   | 20  | 32  | 4   |
+| R03 | 20  | 19  | 25  | 2   | 11  | 28  | 2   | 8   | 26  | 2   | 20  | 26  | 4   | 20  | 26  | 4   |
+| R04 | 30  | 15  | 23  | 2   | 9   | 24  | 2   | 7   | 23  | 2   | 18  | 24  | 2   | 18  | 24  | 2   |
+| R05 | 50  | 11  | 21  | 2   | 5   | 21  | 2   | 6   | 20  | 2   | 17  | 21  | 2   | 7   | 23  | 2   |
 
 Table 5 V-PCC encoder parameters (qp geometry, qp attribute, occupancy precision) per sequence per rate per profile
 

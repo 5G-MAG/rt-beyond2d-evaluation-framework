@@ -31,7 +31,7 @@
 		},
 		{
 			"SeqId": 5,
-			"Name": "aliyah",
+			"Name": "aliyah11",
 			"Fps" : "30",
 			"Config": "aliyah_vox11.cfg",
 			"PlyPath": "<src_ply_dir>/renderpeople_idcc/aliyah/F1112_quantized_vox11_r0.88"

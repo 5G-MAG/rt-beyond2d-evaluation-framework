@@ -164,6 +164,45 @@
 							"occupancyPrecision": "2"
 						}
 					]
+				},
+                {
+					"SeqId": 5,
+					"Condition": "RA",
+					"FrameNbList": [
+						"300"
+					],
+					"RateList": [
+						{
+							"RateId": 1,
+							"geometryQP": "28",
+							"attributeQP": "39",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 2,
+							"geometryQP": "20",
+							"attributeQP": "32",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 3,
+							"geometryQP": "20",
+							"attributeQP": "26",
+							"occupancyPrecision": "4"
+						},
+						{
+							"RateId": 4,
+							"geometryQP": "18",
+							"attributeQP": "24",
+							"occupancyPrecision": "2"
+						},
+						{
+							"RateId": 5,
+							"geometryQP": "7",
+							"attributeQP": "23",
+							"occupancyPrecision": "2"
+						}
+					]
 				}
 			]
 		}
