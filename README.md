@@ -8,8 +8,7 @@
 </p>
 
 <p align="center">
-  <img alt="Status: Under Development"
-    src="https://img.shields.io/badge/Status-Under%20Development-e67e22">
+  <img alt="Status" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.5g-mag.com%2Fbadges%2Fstatus%2Frt-beyond2d-evaluation-framework.json">
   <a href="https://github.com/5G-MAG/rt-beyond2d-evaluation-framework/releases"><img alt="Version"
     src="https://img.shields.io/github/v/release/5G-MAG/rt-beyond2d-evaluation-framework?label=Version"></a>
   <a href="LICENSE.md"><img alt="License: 5G-MAG Public License v1.0"
